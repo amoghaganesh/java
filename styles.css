@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f5a623, #f58025); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 20px;
+}
+
+h1 {
+    color: #ff6347; /* Bright color for the heading */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 5px solid #ff6347; /* Border around the image */
+}
+
+.message {
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
